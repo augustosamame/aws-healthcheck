@@ -7,3 +7,5 @@ gem 'aws-healthcheck'
 ```
 
 Your Rails app now returns a 200 from `/healthcheck`.
+
+Additionally this fork silences the healthcheck so that your logs will not be filled with healthcheck calls every few seconds.
